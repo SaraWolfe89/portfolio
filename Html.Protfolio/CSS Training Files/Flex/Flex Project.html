@@ -14,15 +14,26 @@
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
       
-    }
-
+    
+/*
     .pricing-container {
         display: flex;
         gap: 50px;
         justify-content: center;
     }
+*/
+
+.pricing-container {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2rem;
+}
+    }
+
 .pricing-plan {
-    border: 5px solid black;
+    flex: 1;
+    background-color: lightgrey;
 }
   </style>
 </head>
